@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 24 Jul 2026 07:03:00 +0000
+Source: clang-dummy
+Binary: clang-dummy
+Architecture: all
+Version: 99:99
+Distribution: unstable
+Urgency: low
+Maintainer: Local User <user@localhost.hu>
+Changed-By: Local User <user@localhost.hu>
+Description:
+ clang-dummy - Dummy csomag a clang, libclang1-21 es valgrind teljes kivaltasara
+Changes:
+ clang-dummy (99:99) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 0f72fc10ac522b380bdec3c55fb2e8e2697aa6d6 2508 clang-dummy_99_all.deb
+ 46ace216d8390597f41bc3fab8ac1480554f0ea8 4538 clang-dummy_99_amd64.buildinfo
+Checksums-Sha256:
+ ddc7e9bc530dddd1b1e17d3d8a65a259621bbb8b841f472f5d5bbd4d7440db4a 2508 clang-dummy_99_all.deb
+ a32615f20bf9d70fe934061b71c19663187cdd14ad07c64cd4572f24290acef4 4538 clang-dummy_99_amd64.buildinfo
+Files:
+ c1c54c132cfad6ccf48c1b457ba70ce7 2508 misc optional clang-dummy_99_all.deb
+ fa880b12a5757b6f18424c922cc8b342 4538 misc optional clang-dummy_99_amd64.buildinfo

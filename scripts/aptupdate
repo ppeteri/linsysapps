@@ -2,21 +2,28 @@
 
 sudo -v
 
+# Nem-interaktív mód beállítása a szkript futásának idejére
+export DEBIAN_FRONTEND=noninteractive
+export NEEDRESTART_MODE=a
+
 # paraméter
 if [ $# -gt 0 ]; then
     sudo rm -f /var/lib/apt/lists/*_*
 fi
 
 sudo apt update
-apt list --upgradable
 
-read -r -p "[ENTER]" valasz
+#apt list --upgradable
 
-if [ -n "$valasz" ]; then
-    exit 1
-fi
+#read -r -p "[ENTER]" valasz
+#if [ -n "$valasz" ]; then
+#    exit 1
+#fi
 
-sudo apt full-upgrade -y
+# A NEEDRESTART_MODE=a biztosítja az automatikus újraindítást
+sudo NEEDRESTART_MODE=a apt full-upgrade -y
+#sudo apt full-upgrade -y
+
 sudo apt autoclean
 sudo apt autoremove -y
 

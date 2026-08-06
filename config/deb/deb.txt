@@ -1,0 +1,36 @@
+
+
+Új csomag létrehozás:
+=====================
+
+equivs-control clang-dummy
+
+létrejön a clang-dummy fájl.
+
+
+Az új fájl tartalma:
+====================
+
+Section: misc
+Priority: optional
+Standards-Version: 4.6.0
+
+Package: clang-dummy
+Version: 99:99
+Maintainer: Local User <user@localhost>
+Architecture: all
+Provides: clang, llvm
+Description: Dummy csomag a clang es llvm fuggosegek atveresehez gnome-builder alatt
+
+
+.deb létrrehozása:
+==================
+
+equivs-build clang-dummy
+
+
+.deb telepítése:
+================
+
+sudo dpkg -i clang-dummy_99-99_all.deb
+

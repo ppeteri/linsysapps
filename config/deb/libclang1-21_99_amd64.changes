@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 24 Jul 2026 06:51:19 +0000
+Source: libclang1-21
+Binary: libclang1-21
+Architecture: all
+Version: 99:99
+Distribution: unstable
+Urgency: low
+Maintainer: Local User <user@localhost.hu>
+Changed-By: Local User <user@localhost.hu>
+Description:
+ libclang1-21 - Fake libclang package to save disk space
+Changes:
+ libclang1-21 (99:99) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 4e1bc00abc2ad9e64d0dff094f28800cfceaae02 2152 libclang1-21_99_all.deb
+ 8d8749ffbe8587ed15d935eec2919ca0f2107f37 4543 libclang1-21_99_amd64.buildinfo
+Checksums-Sha256:
+ f66550548f682aaaba6aeb935e5572813cd733ff7b5617a07107468dc55ee281 2152 libclang1-21_99_all.deb
+ 3b5a0aad392c25e51889478c76efa796052672926da574e8b7cc3b5928a294c0 4543 libclang1-21_99_amd64.buildinfo
+Files:
+ b61bcfc74d139d741c1de2f74861490f 2152 libs optional libclang1-21_99_all.deb
+ 8ef751a2d91e74e1eebd10fb6710cd5d 4543 libs optional libclang1-21_99_amd64.buildinfo
